@@ -1,0 +1,11 @@
+Hi there, My name is Emmanuel Oyeyipo. I am a Front-End Developer, a backend developer, a graphics designer amd a product. I am a 
+
+
+
+skills
+frontend - html, css, scss, javascript
+backend - PHP, next JS, XML 
+database - MySQL
+frameworks - React JS, Tailwind CSS, Bootstrap CSS,
+Designs - Adobe Photoshop, Adobe Illustrator, Figma, CorelDraw
+Microsoft Application - MS Word, MS Powerpoint, MS Excel

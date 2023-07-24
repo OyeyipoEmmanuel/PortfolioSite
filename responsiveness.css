@@ -1,0 +1,220 @@
+@media screen and (max-width:640px){
+    /* NAV START */
+    nav{
+        padding: 10px 0;
+        /* position:fixed; */
+    }
+    .navContent{
+        width: 100%;
+        display:block;
+    }
+    .navContent .navMenu{
+        display:none;
+        padding-right:0;
+        width: 80%;
+        -webkit-animation: slide-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-bottom 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    @-webkit-keyframes slide-bottom {
+    0% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(10px);
+                transform: translateY(10px);
+    }
+    }
+    @keyframes slide-bottom {
+    0% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+    100% {
+        -webkit-transform: translateY(10px);
+                transform: translateY(10px);
+    }
+ }
+    .navContent .navMenu.activeNav{
+        display: block;
+        margin: 2rem 0 0 0;
+    }
+    .navContent ul li{
+        margin: 2rem;
+    }
+    .navContent .hamburger{
+        display: flex;
+        width:90%;
+        justify-content:flex-end;
+        padding: 0 0 0 30px;
+    }
+    .navContent ul.dropdown li{
+        display: none;
+    }
+    .hamburger i{
+        padding: 0 10px;
+        justify-content:flex-end;
+        font-size: 20px;
+    }
+    .hamburger i:last-child{
+        display:none;
+    }
+    /* NAV ENDS */
+
+    /* HEADER START */
+    header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .headerContent{
+        margin: 0 5px;
+        
+    }
+    .headerContent h1{
+        font-size:2rem;
+    }
+    .headerContent .image{
+        width:60%;
+    }
+    /* HEADER ENDS */
+
+    /* ABOUT START */
+    .about{
+        display: block;
+    }
+    .about img{
+        width: 100%;
+    }
+    .about .aboutContent{
+        width: 100%;
+        padding: 0 30px;
+    }
+    .aboutContent h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    .aboutContent p{
+        text-align: justify;
+    }
+    /* About Ends*/
+
+    /* Help Section Start */
+    .helpSection{
+        width: 100vw;
+    }
+
+    .helpSection h1{
+        font-size: 1.8rem;
+        padding:20px 0;
+    }
+    .helpSectionContent .row{
+        display: block;
+        width: 100%;
+    }
+    .helpSectionContent .row .card img{
+        width: 200px;
+        height:200px;
+    }
+    .helpSectionContent .row .card{
+        width: 100%;
+        margin: 2.5rem 0rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 3rem;
+    }
+    .helpSectionContent .row .card p{
+        font-size: 1rem;
+    }
+    /* Help Section Ends */
+
+
+
+    /* Skills Start */
+
+.skills{
+    padding:0rem;
+}
+.skills p{
+    font-size: 18px;
+}
+.skills h1{
+    font-size:3.5rem;
+}
+.skillContent{
+    width:100%;
+    margin-top:1.5rem;
+    padding-left:5%;
+    display: block;
+    /* flex-wrap: wrap;
+    justify-content: space-between; */
+}
+.skillCard{
+    width: 95%;
+    flex-basis:0;
+}
+.skillCardContent{
+    display:block;
+}
+.skillCardContent span{
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    justify-content: space-evenly;
+}
+.skillCardContent h4{
+    font-size:1.3rem;
+    font-family: 'Comfortaa', cursive;
+}
+.skillCard h2{
+    font-size:2rem;
+    
+}
+/* Skills Ends */
+.contact{
+    flex-direction: column;
+    /* display: block; */
+    padding:1rem;
+    margin: 0;
+    margin-bottom:2rem ;
+}
+.contact .row1{
+    width: fit-content;
+    margin: 2rem 0;
+}
+.contact .row1 h1{
+    font-size: 2rem;
+    text-align: center;
+    color: var(--headingColor);
+}
+.contact .row1 h4{
+    padding: 0 20px;
+}
+.contact .row1 .emailLink{
+    width: 90%;
+    padding:1rem;
+    margin: 2rem 1rem;
+}
+.contact .row2{
+    width: 170%;
+    padding: .7rem;
+}
+.contact form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+footer{
+    text-align: center;
+    margin: 1rem 0;
+
+}
+
+}
+/* Contact Section */
